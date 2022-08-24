@@ -1,4 +1,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/bi9kof78cbfrbknf?svg=true)](https://ci.appveyor.com/project/sandhraprakash/sourcegrid)
+
+## Notes on fork
+This is a simple fork to bring SourceGrid into Net6.0-windows. Mostly it was a change to the project file, and some minor changes to the code (ContextMenu -> ContextMenuStrip). I haven't done any checking other than ensuring that it works for me. 
+
 ## SourceGrid
 
 SourceGrid is a free open source grid control. Supports virtual grid, custom cells and editors, advanced formatting options and many others features
