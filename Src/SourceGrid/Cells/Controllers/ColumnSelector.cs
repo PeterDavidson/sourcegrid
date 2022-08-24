@@ -19,7 +19,7 @@ namespace SourceGrid.Cells.Controllers
 		public override void OnClick(CellContext sender, EventArgs e)
 		{
 			base.OnClick (sender, e);
-
+			sender.Grid.Selection.ResetSelection(false);
 			sender.Grid.Selection.SelectColumn(sender.Position.Column, true);
 		}
 	}

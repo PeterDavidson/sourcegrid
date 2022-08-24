@@ -1,5 +1,4 @@
-﻿using System;
-using QuadTreeLib;
+﻿using QuadTreeLib;
 
 namespace SourceGrid
 {

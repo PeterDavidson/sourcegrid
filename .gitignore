@@ -9,3 +9,6 @@
 /Src/WindowsFormsSample/.vs/WindowsFormsSample/v15/Server/sqlite3
 /Out
 /Src/WindowsFormsSample/.vs/WindowsFormsSample/v15
+/Src/bin
+/WindowsFormsSample/obj/
+/WindowsFormsSample/bin

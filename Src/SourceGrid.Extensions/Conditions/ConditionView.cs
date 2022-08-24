@@ -1,7 +1,4 @@
 using SourceGrid.Cells.Views;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using SourceGrid.Cells;
 
 namespace SourceGrid.Conditions

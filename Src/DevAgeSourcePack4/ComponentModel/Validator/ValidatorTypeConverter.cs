@@ -1,10 +1,5 @@
 using System;
 using System.ComponentModel;
-using System.ComponentModel.Design;
-using System.ComponentModel.Design.Serialization;
-using System.Globalization;
-using System.Reflection;
-
 using SourceGrid.Utils;
 
 namespace DevAge.ComponentModel.Validator
@@ -72,12 +67,12 @@ namespace DevAge.ComponentModel.Validator
 			if (e.Value == null)
 			{
 			}
-			else if (e.Value is string) //è importante fare prima il caso stringa per gestire correttamente il null
+			else if (e.Value is string) //Ã¨ importante fare prima il caso stringa per gestire correttamente il null
 			{
 				string tmp = (string)e.Value;
 				if (IsNullString(tmp))
 					e.Value = null;
-				else if (e.DestinationType.IsAssignableFrom(e.Value.GetType())) //se la stringa non è nulla e il tipo di destinazione è sempre una string allora non faccio nessuna conversione
+				else if (e.DestinationType.IsAssignableFrom(e.Value.GetType())) //se la stringa non Ã¨ nulla e il tipo di destinazione Ã¨ sempre una string allora non faccio nessuna conversione
 				{
 				}
 				else if (IsStringConversionSupported())

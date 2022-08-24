@@ -45,9 +45,7 @@ DEALINGS IN THE SOFTWARE. */
 
 using SourceGrid.Selection;
 using System;
-using System.Collections;
 using System.ComponentModel;
-using System.Drawing;
 using DevAge.ComponentModel;
 
 namespace SourceGrid

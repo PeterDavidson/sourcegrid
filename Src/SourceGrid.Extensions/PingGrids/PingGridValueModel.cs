@@ -1,9 +1,6 @@
 ﻿
 using System;
-using System.ComponentModel;
-using DevAge.ComponentModel;
 using SourceGrid.Cells.Models;
-using SourceGrid.Selection;
 
 namespace SourceGrid.Extensions.PingGrids
 {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SourceGrid
+﻿namespace SourceGrid
 {
 	/// <summary>
 	/// This class implements a RowsBase class using always the same Height for all rows. Using this class you must only implement the Count method.

@@ -1,6 +1,5 @@
 using System;
 using System.Drawing;
-using System.Collections;
 using System.Windows.Forms;
 
 namespace SourceGrid.Cells.Views

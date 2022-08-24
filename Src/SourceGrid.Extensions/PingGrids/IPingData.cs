@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-
-namespace SourceGrid.Extensions.PingGrids
+﻿namespace SourceGrid.Extensions.PingGrids
 {
 	public interface IPingData
 	{

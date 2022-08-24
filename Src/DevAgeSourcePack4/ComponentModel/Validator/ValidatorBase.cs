@@ -1,9 +1,5 @@
 using System;
 using System.ComponentModel;
-using System.ComponentModel.Design;
-using System.ComponentModel.Design.Serialization;
-using System.Globalization;
-using System.Reflection;
 
 namespace DevAge.ComponentModel.Validator
 {
@@ -340,7 +336,7 @@ namespace DevAge.ComponentModel.Validator
 			else if (e.ConvertingStatus == ConvertingStatus.Completed)
 				return;
 
-			if (e.Value is string) //è importante fare prima il caso stringa per gestire correttamente il null
+			if (e.Value is string) //Ã¨ importante fare prima il caso stringa per gestire correttamente il null
 			{
 				string tmp = (string)e.Value;
 				if (IsNullString(tmp))

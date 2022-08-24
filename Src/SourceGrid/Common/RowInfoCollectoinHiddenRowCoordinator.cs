@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SourceGrid
+﻿namespace SourceGrid
 {
 	public class RowInfoCollectoinHiddenRowCoordinator : StandardHiddenRowCoordinator
 	{

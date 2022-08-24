@@ -39,10 +39,7 @@ DEALINGS IN THE SOFTWARE. */
 #endregion Copyright
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Drawing;
-using System.ComponentModel;
 
 namespace DevAge.Drawing.VisualElements
 {

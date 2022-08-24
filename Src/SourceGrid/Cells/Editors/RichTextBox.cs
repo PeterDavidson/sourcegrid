@@ -34,12 +34,7 @@ DEALINGS IN THE SOFTWARE. */
  1. Validation for Control added in OnStartingEdit, SetEditValue, GetEditedValue,OnSendCharToEditor
 */
 #endregion Copyright
-using System;
-using System.Drawing;
 using System.Windows.Forms;
-using System.IO;
-using DevAge.ComponentModel;
-using DevAge;
 
 namespace SourceGrid.Cells.Editors
 {

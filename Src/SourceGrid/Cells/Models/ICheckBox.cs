@@ -35,8 +35,6 @@ DEALINGS IN THE SOFTWARE. */
 */
 
 #endregion Copyright
-using System;
-
 namespace SourceGrid.Cells.Models
 {
 	/// <summary>

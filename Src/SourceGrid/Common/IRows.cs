@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-
-namespace SourceGrid
+﻿namespace SourceGrid
 {
 	public interface IRows
 	{

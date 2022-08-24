@@ -40,9 +40,7 @@ DEALINGS IN THE SOFTWARE. */
 */
 #endregion Copyright
 
-using QuadTreeLib;
 using System;
-using System.Collections.Generic;
 
 namespace SourceGrid
 {

@@ -20,6 +20,7 @@ namespace SourceGrid.Cells.Controllers
 		{
 			base.OnClick (sender, e);
 
+            sender.Grid.Selection.ResetSelection(false);
 			sender.Grid.Selection.SelectRow(sender.Position.Row, true );
 		}
 	}

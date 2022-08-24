@@ -1,9 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.ComponentModel;
 using System.Drawing;
-using System.Windows.Forms.VisualStyles;
 
 namespace DevAge.Drawing.VisualElements
 {

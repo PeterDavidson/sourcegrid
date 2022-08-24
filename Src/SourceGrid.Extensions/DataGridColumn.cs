@@ -39,7 +39,6 @@ using SourceGrid.Cells.Editors;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using SourceGrid.Cells;
 
 namespace SourceGrid

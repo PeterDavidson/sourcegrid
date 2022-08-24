@@ -38,7 +38,6 @@ DEALINGS IN THE SOFTWARE. */
 */
 #endregion Copyright
 
-using System;
 using System.Collections.Generic;
 using SourceGrid.Selection;
 

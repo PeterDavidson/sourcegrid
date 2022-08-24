@@ -1,7 +1,6 @@
 ﻿
 using System;
 using System.ComponentModel;
-using DevAge.ComponentModel;
 using SourceGrid.Cells;
 using SourceGrid.Selection;
 

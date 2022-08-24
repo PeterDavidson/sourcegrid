@@ -38,11 +38,7 @@ DEALINGS IN THE SOFTWARE. */
 #endregion Copyright
 
 using System;
-using System.Collections;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Runtime.InteropServices;
 using System.Windows.Forms;
 //using SourceGrid.SourceGrid.Cells.Editors;
 

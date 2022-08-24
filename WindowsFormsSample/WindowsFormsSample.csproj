@@ -134,9 +134,6 @@
     <Compile Include="GridSamples\frmSample14.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GridSamples\frmSample17.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="GridSamples\frmSample18.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,13 +161,7 @@
     <Compile Include="GridSamples\frmSample29.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GridSamples\frmSample3.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="GridSamples\frmSample4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GridSamples\frmSample41.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GridSamples\frmSample42.cs">
@@ -246,9 +237,6 @@
     <EmbeddedResource Include="GridSamples\frmSample14.resx">
       <DependentUpon>frmSample14.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GridSamples\frmSample17.resx">
-      <DependentUpon>frmSample17.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GridSamples\frmSample18.resx">
       <DependentUpon>frmSample18.cs</DependentUpon>
     </EmbeddedResource>
@@ -276,14 +264,8 @@
     <EmbeddedResource Include="GridSamples\frmSample29.resx">
       <DependentUpon>frmSample29.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GridSamples\frmSample3.resx">
-      <DependentUpon>frmSample3.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GridSamples\frmSample4.resx">
       <DependentUpon>frmSample4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GridSamples\frmSample41.resx">
-      <DependentUpon>frmSample41.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GridSamples\frmSample42.resx">
       <DependentUpon>frmSample42.cs</DependentUpon>
@@ -361,12 +343,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SourceGrid.csproj">
-      <Project>{2a5a1657-dba8-4117-8e2a-9f1236ace9e2}</Project>
-      <Name>SourceGrid</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -37,12 +37,7 @@ DEALINGS IN THE SOFTWARE. */
 */
 #endregion Copyright
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Forms;
 using DevAge.Drawing;
-using SourceGrid.Cells.Editors;
 
 namespace SourceGrid.Decorators
 {

@@ -39,7 +39,6 @@ DEALINGS IN THE SOFTWARE. */
 
 using System;
 using System.Drawing;
-using System.ComponentModel;
 using System.Drawing.Drawing2D;
 
 namespace DevAge.Drawing

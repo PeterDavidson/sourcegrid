@@ -1,5 +1,3 @@
-using System;
-
 namespace DevAge.Text.FixedLength
 {
 	/// <summary>

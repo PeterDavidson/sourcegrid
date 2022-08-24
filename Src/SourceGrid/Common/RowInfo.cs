@@ -34,7 +34,6 @@ DEALINGS IN THE SOFTWARE. */
  * 1. Visible : Unnecessarily events for visibility changed shouldnot be fired
 */
 #endregion Copyright
-using System;
 using System.ComponentModel;
 
 namespace SourceGrid

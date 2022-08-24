@@ -38,9 +38,6 @@ DEALINGS IN THE SOFTWARE. */
 
 using SourceGrid.Cells.Controllers;
 using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Windows.Forms;
 
 namespace SourceGrid.Cells
 {

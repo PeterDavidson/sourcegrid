@@ -35,9 +35,7 @@ DEALINGS IN THE SOFTWARE. */
 */
 #endregion Copyright
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SourceGrid
 {
@@ -110,7 +108,7 @@ namespace SourceGrid
 		{
 			int dataIndex = IndexToDataSourceIndex(gridRowIndex);
 
-			//Verifico che l'indice sia valido, perchè potrei essere in un caso in cui le righe non combaciano (magari a seguito di un refresh non ancora completo)
+			//Verifico che l'indice sia valido, perchÃ¨ potrei essere in un caso in cui le righe non combaciano (magari a seguito di un refresh non ancora completo)
 			if (Grid.DataSource != null &&
 			    dataIndex >= 0 && dataIndex < Grid.DataSource.Count)
 				return Grid.DataSource[dataIndex];

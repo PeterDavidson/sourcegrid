@@ -36,9 +36,6 @@ DEALINGS IN THE SOFTWARE. */
 */
 #endregion Copyright
 
-using System;
-using System.Drawing;
-
 namespace SourceGrid.Cells.Virtual
 {
 	/// <summary>

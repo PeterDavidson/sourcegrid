@@ -1,5 +1,3 @@
-using System;
-
 namespace DevAge.IO.IsolatedStorage
 {
 	/// <summary>

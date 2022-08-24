@@ -1,7 +1,5 @@
 using System;
 using System.Windows.Forms;
-using System.Reflection;
-using System.Drawing;
 
 namespace SourceGrid.Cells
 {

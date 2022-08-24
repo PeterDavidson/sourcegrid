@@ -81,7 +81,11 @@ namespace SourceGrid
 				mValueCell = new SourceGrid.Cells.Virtual.CellVirtual();
 				mValueCell.Model.AddModel(new ArrayValueModel());
                 mValueCell.Editor = Cells.Editors.Factory.Create(mDataSource.GetType().GetElementType());
-			}
+				Columns.Clear();
+                for (var i = 0; i < mDataSource.GetLength(1); i++) {
+                    Columns.Add(new ColumnInfo(this));
+                }
+            }
 
 			Rows.RowsChanged();
 			Columns.ColumnsChanged();
@@ -167,7 +171,7 @@ namespace SourceGrid
 		#region IValueModel Members
 		public virtual object GetValue(CellContext cellContext)
 		{
-			return cellContext.Position.Row - cellContext.Grid.FixedRows;
+			return cellContext.Position.Row - cellContext.Grid.FixedRows+1;
 		}
 
 		public virtual void SetValue(CellContext cellContext, object p_Value)
@@ -184,7 +188,7 @@ namespace SourceGrid
 		#region IValueModel Members
 		public virtual object GetValue(CellContext cellContext)
 		{
-			return cellContext.Position.Column - cellContext.Grid.FixedColumns;
+			return cellContext.Position.Column - cellContext.Grid.FixedColumns+1;
 		}
 
 		public virtual void SetValue(CellContext cellContext, object p_Value)
@@ -277,40 +281,32 @@ namespace SourceGrid
 	}
 	public class ArrayColumns : ColumnInfoCollection
 	{
-		public ArrayColumns(ArrayGrid grid):base(grid)
-		{
+		public ArrayColumns(ArrayGrid grid):base(grid) {
+     //       if (grid.DataSource != null) {
+     //           for (var i = 0; i < grid.DataSource.GetLength(1); i++) {
+					//Add(new ColumnInfo(grid));
+     //           }
+     //       }
+			
 		}
 
-		public new ArrayGrid Grid
-		{
-			get{return (ArrayGrid)base.Grid;}
-		}
+		public new ArrayGrid Grid => (ArrayGrid)base.Grid;
 
-		/*public override int Count
-		{
-			get
-			{
-				if (Grid.DataSource == null)
-					return Grid.FixedColumns;
-				else
-				{
-					return Grid.DataSource.GetLength(1) + Grid.FixedColumns;
-				}
-			}
-		}*/
-/*
-        private AutoSizeMode mAutoSizeMode = AutoSizeMode.Default;
-        public AutoSizeMode AutoSizeMode
-        {
-            get { return mAutoSizeMode; }
-            set { mAutoSizeMode = value; }
-        }
+        //public override int Count {
+        //    get {
+        //        if (Grid.DataSource == null)
+        //            return Grid.FixedColumns;
+        //        else {
+        //            return Grid.DataSource.GetLength(1) + Grid.FixedColumns;
+        //        }
+        //    }
+        //}
 
-        public override AutoSizeMode GetAutoSizeMode(int row)
-        {
-            return mAutoSizeMode;
-        }*/
-	}
+
+        //public AutoSizeMode AutoSizeMode { get; set; } = AutoSizeMode.Default;
+
+        //public override AutoSizeMode GetAutoSizeMode(int row) => AutoSizeMode;
+    }
 
 	#endregion
 }

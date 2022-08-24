@@ -1,5 +1,3 @@
-using System;
-
 namespace SourceGrid.Cells.Models
 {
 	/// <summary>

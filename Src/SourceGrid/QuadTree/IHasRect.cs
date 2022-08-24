@@ -1,6 +1,4 @@
 ﻿using SourceGrid;
-using System;
-using System.Drawing;
 
 namespace QuadTreeLib
 {

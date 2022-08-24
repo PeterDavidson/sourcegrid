@@ -11,14 +11,13 @@
 * Original NameSpace.ClassName: Mozzarella.Utility.Arguments
 */
 
-using System;
 using System.Collections.Specialized;
 using System.Text.RegularExpressions;
 
 namespace DevAge.Configuration
 {
 	/// <summary>
-	/// Description résumée de Arguments.
+	/// Description rÃ©sumÃ©e de Arguments.
 	/// </summary>
 	public class CommandLineArgs : StringDictionary
 	{

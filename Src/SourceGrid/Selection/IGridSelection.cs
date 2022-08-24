@@ -35,8 +35,6 @@ DEALINGS IN THE SOFTWARE. */
  * 1. EnableSmartDrag was added to support excelLike Smartdrag. 
 */
 #endregion Copyright
-using System;
-
 namespace SourceGrid.Selection
 {
 	public interface IGridSelection

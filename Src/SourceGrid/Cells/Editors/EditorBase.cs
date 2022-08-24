@@ -39,7 +39,6 @@ DEALINGS IN THE SOFTWARE. */
 #endregion Copyright
 
 using System;
-using System.Windows.Forms;
 
 namespace SourceGrid.Cells.Editors
 {
@@ -277,7 +276,7 @@ namespace SourceGrid.Cells.Editors
                     {
                         OnEditException(new ExceptionEventArgs(err));
                         cellContext.Cell.Model.ValueModel.SetValue(cellContext, l_PrevValue);
-                        l_cancelEvent.Cancel = true;//di fatto è fallita la validazione del dato
+                        l_cancelEvent.Cancel = true;//di fatto Ã¨ fallita la validazione del dato
                     }
                 }
 

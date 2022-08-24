@@ -1,10 +1,5 @@
-using System;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
-using System.Security;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace DevAge.Runtime.Serialization
 {

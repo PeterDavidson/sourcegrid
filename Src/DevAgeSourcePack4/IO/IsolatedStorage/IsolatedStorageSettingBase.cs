@@ -1,7 +1,6 @@
 using System;
 using System.IO;
 using System.IO.IsolatedStorage;
-using System.Runtime.Serialization;
 
 namespace DevAge.IO.IsolatedStorage
 {

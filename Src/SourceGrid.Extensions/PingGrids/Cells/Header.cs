@@ -1,6 +1,4 @@
-﻿
-using System;
-using SourceGrid.Cells.Models;
+﻿using SourceGrid.Cells.Models;
 
 namespace SourceGrid.Extensions.PingGrids.Cells
 {

@@ -1,7 +1,3 @@
-using System;
-using System.Windows.Forms;
-
-
 namespace SourceGrid.Cells.Virtual
 {
 	/// <summary>

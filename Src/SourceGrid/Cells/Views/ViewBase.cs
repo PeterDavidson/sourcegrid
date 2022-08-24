@@ -38,8 +38,6 @@ DEALINGS IN THE SOFTWARE. */
 
 using System;
 using System.Drawing;
-using System.Collections;
-using System.Windows.Forms;
 using DevAge.Drawing;
 
 namespace SourceGrid.Cells.Views

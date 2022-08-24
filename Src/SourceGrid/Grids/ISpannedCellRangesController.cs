@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SourceGrid
+﻿namespace SourceGrid
 {
 	/// <summary>
 	/// This interfaces defines the logic how spanned cell ranges

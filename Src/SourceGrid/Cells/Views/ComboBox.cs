@@ -37,9 +37,7 @@ DEALINGS IN THE SOFTWARE. */
  */
 #endregion Copyright
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SourceGrid.Cells.Views
 {
